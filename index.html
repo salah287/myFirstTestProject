@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ea1f96e61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>JS DOM || Application #16</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logoNav">
+                <div class="logo"><img src="images/logo.svg" alt=""></div>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#">Collections</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="cartProf">
+                <div class="cart-ico">
+                    <div class="nbr"></div>
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <div class="cart">
+                        <h4>Cart</h4>
+                        <div class="products">
+                            <p class="empty-msg">Your cart is empty</p>
+                            <div class="products-cont-cart"></div>
+                            <input type="submit" id="checkout-btn" value="Checkout">
+                        </div>
+                    </div>
+                </div>
+                <img class="img-avatar" src="images/image-avatar.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="product-page">
+                <div class="product-images">
+                    <div class="product-card">
+                        <div class="product-big-img">
+                            <img src="images/image-product-1.jpg" id="prod-img" alt="">
+                        </div>
+                        <div class="product-img-thum">
+                            <ul>
+                                <li class="img-cmd active"><img src="images/image-product-1-thumbnail.jpg" alt=""></li>
+                                <li class="img-cmd"><img src="images/image-product-2-thumbnail.jpg" alt=""></li>
+                                <li class="img-cmd"><img src="images/image-product-3-thumbnail.jpg" alt=""></li>
+                                <li class="img-cmd"><img src="images/image-product-4-thumbnail.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-info-content">
+                        <h4>SNEAKER COMPANY</h4>
+                        <h1>Fall Limited Edition Sneakers</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, omnis ut. Ipsum sed dolorum, veniam voluptas magnam commodi illo veritatis ullam tempore maxime odio eveniet!</p>
+                        <div class="price-detail">
+                            <div class="price-reduction">
+                                <span class="p-price">$125.00</span>
+                                <span class="percent-red">50%</span>
+                            </div>
+                            <span class="old-price">$250.00</span>
+                        </div>
+                        <div class="add-to-card">
+                            <div class="commande">
+                                <i class="fa-solid fa-minus"></i>
+                                <span class="product-unit">0</span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <a href="#" class="submit-cmd"><i class="fa-solid fa-cart-arrow-down"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
